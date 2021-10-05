@@ -1,0 +1,6 @@
+1- For, la mayoria del software se ejecuta en bucles, quiere decir que itera una y otra vez sobre ciertas expresiones establecidas, hasta encontrar un resultado o llegar a cierto tiempo.
+For lleva una sintaxis asi: se declara un ariable, let 1 = 0, luego va una expresion condicional, i < 10, y luego en cuanto se incrementa la variable), con estos pasos se detalla el valor inicial de la variable, cual es la condicion para que  se ejecute el incremento y por ultimo cuanto incrementa esa variable, i ++
+2- Operadores logicos
+&&, AND, este evalua si ambas expresiones son verdaderas, si lo son ejecuta el codigo si alguna de las 2 es false no se ejecuta
+||, OR, este evalua si alguna de las 2 es true dara true, solo da false si ambas lo son.
+!, NOT, este niega lo que esta escrito delante de el. 
