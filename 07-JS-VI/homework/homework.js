@@ -27,7 +27,7 @@ function sumarArray(numeros, cb) {
   //Tu código:
   var suma = 0
   for (i=0; i< numeros.length; i++) {
-    suma = suma + numeros [i]
+    suma = suma + numeros[i]
   }
   cb(suma)
 }
@@ -49,12 +49,20 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
+  let mapeo = array.map(el => {
+    return cb(el)
+  })
+  return mapeo
 }
 
 function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
+  let nuevoArray = array.filter(el => {
+    return el[0] === "a"
+  })
+  return nuevoArray
 }
 
 // No modificar nada debajo de esta línea
